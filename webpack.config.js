@@ -39,7 +39,7 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: SRC_DIR + '/index.html'
+            template: path.resolve(__dirname, 'index.html')
         })
     ]
 }
